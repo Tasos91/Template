@@ -40,10 +40,3 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-
-ext {
-	databaseUrl = 'jdbc:mysql://db-cloud-hr-tsek-nyc3-13857-do-user-6735102-0.b.db.ondigitalocean.com:25060/defaultdb'
-	databaseUsername = 'doadmin'
-	databasePassword = 'AVNS_l0b9aGR0rNfh4cTIoIM'
-	databaseSslmode = 'REQUIRED'
-}
