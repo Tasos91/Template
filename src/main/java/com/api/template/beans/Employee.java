@@ -1,6 +1,6 @@
 package com.api.template.beans;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.extern.log4j.Log4j;
 import java.util.Date;
 
